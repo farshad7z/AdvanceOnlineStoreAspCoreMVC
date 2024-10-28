@@ -20,3 +20,4 @@ E:\Project Store Advance\OnlineStore.Core\obj\Debug\net8.0\OnlineStore.Core.dll
 E:\Project Store Advance\OnlineStore.Core\obj\Debug\net8.0\refint\OnlineStore.Core.dll
 E:\Project Store Advance\OnlineStore.Core\obj\Debug\net8.0\OnlineStore.Core.pdb
 E:\Project Store Advance\OnlineStore.Core\obj\Debug\net8.0\ref\OnlineStore.Core.dll
+E:\Project Store Advance\OnlineStore.Core\obj\Debug\net8.0\OnlineStore.Core.sourcelink.json

@@ -32,3 +32,4 @@ E:\Project Store Advance\OnlineStore.DAL\obj\Debug\net8.0\refint\OnlineStore.DAL
 E:\Project Store Advance\OnlineStore.DAL\obj\Debug\net8.0\OnlineStore.DAL.pdb
 E:\Project Store Advance\OnlineStore.DAL\obj\Debug\net8.0\OnlineStore.DAL.genruntimeconfig.cache
 E:\Project Store Advance\OnlineStore.DAL\obj\Debug\net8.0\ref\OnlineStore.DAL.dll
+E:\Project Store Advance\OnlineStore.DAL\obj\Debug\net8.0\OnlineStore.DAL.sourcelink.json

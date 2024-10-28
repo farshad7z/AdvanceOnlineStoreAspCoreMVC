@@ -1,4 +1,14 @@
+﻿using Microsoft.EntityFrameworkCore;
+using OnlineStore.Core.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+
+// اضافه کردن DbContext
+builder.Services.AddDbContext<EShopDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

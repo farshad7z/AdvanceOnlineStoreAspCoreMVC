@@ -32,3 +32,4 @@ E:\Project Store Advance\OnlineStore.BLL\obj\Debug\net8.0\OnlineStore.BLL.dll
 E:\Project Store Advance\OnlineStore.BLL\obj\Debug\net8.0\refint\OnlineStore.BLL.dll
 E:\Project Store Advance\OnlineStore.BLL\obj\Debug\net8.0\OnlineStore.BLL.pdb
 E:\Project Store Advance\OnlineStore.BLL\obj\Debug\net8.0\ref\OnlineStore.BLL.dll
+E:\Project Store Advance\OnlineStore.BLL\obj\Debug\net8.0\OnlineStore.BLL.sourcelink.json

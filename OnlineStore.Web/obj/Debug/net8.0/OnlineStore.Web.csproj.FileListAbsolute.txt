@@ -118,3 +118,4 @@ E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\refint\OnlineStore.Web
 E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.pdb
 E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.genruntimeconfig.cache
 E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\ref\OnlineStore.Web.dll
+E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.sourcelink.json

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using OnlineStore.DAL.Models;
 
-namespace OnlineStore.DAL.Data;
+namespace OnlineStore.Core.Data;
 
 public partial class EShopDbContext : DbContext
 {
