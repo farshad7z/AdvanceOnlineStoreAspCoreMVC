@@ -7,13 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OnlineStore.Core\OnlineStore.Core.csproj" />
-    <ProjectReference Include="..\OnlineStore.DAL\OnlineStore.DAL.csproj" />
+    <None Include="..\.editorconfig" Link=".editorconfig" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\OnlineStore.Core\OnlineStore.Core.csproj" />
+    <ProjectReference Include="..\OnlineStore.DAL\OnlineStore.DAL.csproj" />
   </ItemGroup>
 
 </Project>

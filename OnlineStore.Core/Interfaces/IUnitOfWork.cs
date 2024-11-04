@@ -9,12 +9,14 @@ namespace OnlineStore.Core.Interfaces
 {
     public interface IUnitOfWork : IDisposable
     {
-        IGenericRepository<Rolse> RolseRepository { get; }
-        IGenericRepository<User> UserRepository { get; }
 
-        IGenericRepository<Product> ProductRepository { get; }
+        // این متد یک ریپوزیتوری جنریک از نوع داده‌ی مشخص شده برمی‌گرداند
+        IGenericRepository<T> Repository<T>() where T : class;
+
+        // متدی برای ذخیره‌سازی تغییرات در دیتابیس
 
         Task<int> SaveAsync();
 
     }
+
 }

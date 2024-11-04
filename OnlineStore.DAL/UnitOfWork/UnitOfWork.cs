@@ -14,29 +14,22 @@ namespace OnlineStore.DAL.UnitOfWork
     public class UnitOfWork : IUnitOfWork
     {
         private readonly EShopDbContext _context;
-        private IGenericRepository<Rolse> _rolseRepository;
-        private IGenericRepository<User> _userRepository;
-        private IGenericRepository<Product> _productRepository;
-
         public UnitOfWork(EShopDbContext context)
         {
             _context = context;
         }
-        public IGenericRepository<Rolse> RolseRepository => _rolseRepository ??= new GenericRepository<Rolse>(_context);
 
-        public IGenericRepository<User> UserRepository => _userRepository ??= new GenericRepository<User>(_context);  
-
-        public IGenericRepository<Product> ProductRepository => _productRepository ??= new GenericRepository<Product>(_context);
-
-  
-        public async Task<int> SaveAsync()
+   
+        public IGenericRepository<T> Repository<T>() where T : class
         {
-            return await _context.SaveChangesAsync();
+            return new GenericRepository<T>(_context);
         }
 
+        public async Task<int> SaveAsync() => await _context.SaveChangesAsync();
         public void Dispose()
         {
             _context.Dispose();
         }
+
     }
 }
