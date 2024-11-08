@@ -9,14 +9,14 @@ E:\Project Store Advance\OnlineStore\OnlineStore\OnlineStore.Core\obj\Debug\net8
 E:\Project Store Advance\OnlineStore\OnlineStore\OnlineStore.Core\obj\Debug\net8.0\refint\OnlineStore.Core.dll
 E:\Project Store Advance\OnlineStore\OnlineStore\OnlineStore.Core\obj\Debug\net8.0\OnlineStore.Core.pdb
 E:\Project Store Advance\OnlineStore\OnlineStore\OnlineStore.Core\obj\Debug\net8.0\ref\OnlineStore.Core.dll
+E:\Project Store Advance\OnlineStore.Core\bin\Debug\net8.0\OnlineStore.Core.deps.json
+E:\Project Store Advance\OnlineStore.Core\bin\Debug\net8.0\OnlineStore.Core.dll
+E:\Project Store Advance\OnlineStore.Core\bin\Debug\net8.0\OnlineStore.Core.pdb
 E:\Project Store Advance\OnlineStore.Core\obj\Debug\net8.0\OnlineStore.Core.GeneratedMSBuildEditorConfig.editorconfig
 E:\Project Store Advance\OnlineStore.Core\obj\Debug\net8.0\OnlineStore.Core.AssemblyInfoInputs.cache
 E:\Project Store Advance\OnlineStore.Core\obj\Debug\net8.0\OnlineStore.Core.AssemblyInfo.cs
 E:\Project Store Advance\OnlineStore.Core\obj\Debug\net8.0\OnlineStore.Core.csproj.CoreCompileInputs.cache
 E:\Project Store Advance\OnlineStore.Core\obj\Debug\net8.0\OnlineStore.Core.sourcelink.json
-E:\Project Store Advance\OnlineStore.Core\bin\Debug\net8.0\OnlineStore.Core.deps.json
-E:\Project Store Advance\OnlineStore.Core\bin\Debug\net8.0\OnlineStore.Core.dll
-E:\Project Store Advance\OnlineStore.Core\bin\Debug\net8.0\OnlineStore.Core.pdb
 E:\Project Store Advance\OnlineStore.Core\obj\Debug\net8.0\OnlineStore.Core.dll
 E:\Project Store Advance\OnlineStore.Core\obj\Debug\net8.0\refint\OnlineStore.Core.dll
 E:\Project Store Advance\OnlineStore.Core\obj\Debug\net8.0\OnlineStore.Core.pdb

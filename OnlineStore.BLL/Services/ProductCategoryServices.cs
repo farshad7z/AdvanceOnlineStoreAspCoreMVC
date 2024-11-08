@@ -10,32 +10,32 @@ namespace OnlineStore.BLL.Services
 {
     public class ProductCategoryServices : IProductCategoryServices
     {
-        public Task AddProductCategory(ProductGroup productGroup)
+        public Task AddProductCategoryAsync(ProductGroup productGroup)
         {
             throw new NotImplementedException();
         }
 
-        public Task DeleteProductCategory(int id)
+        public Task DeleteProductCategoryAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<ProductGroup>> GetAllProductCategory()
+        public Task<IEnumerable<ProductGroup>> GetAllProductCategoryAsync()
         {
             throw new NotImplementedException();
         }
 
-        public Task<ProductGroup> GetProductCategoryById(int id)
+        public Task<ProductGroup> GetProductCategoryByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<ProductGroup> GetProductCategoryByName(string name)
+        public Task<ProductGroup> GetProductCategoryByNameAsync(string name)
         {
             throw new NotImplementedException();
         }
 
-        public Task UpdateProductCategory(ProductGroup productGroup)
+        public Task UpdateProductCategoryAsync(ProductGroup productGroup)
         {
             throw new NotImplementedException();
         }

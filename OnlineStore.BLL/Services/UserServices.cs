@@ -13,7 +13,7 @@ namespace OnlineStore.BLL.Services
     public class UserServices : IUserServices
     {
         private readonly IUnitOfWork _unitOfWork;
-        public UserServices(UnitOfWork unitOfWork)
+        public UserServices(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }

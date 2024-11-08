@@ -13,7 +13,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<EShopDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<IProductServices, ProductServices>(); 
+builder.Services.AddScoped<IProductServices, ProductServices>();
+builder.Services.AddScoped<IProductCategoryServices, ProductCategoryServices>();
+builder.Services.AddScoped<IStoreServices, StoreServices>();
+builder.Services.AddScoped<IRolseServices, RolseServices>();
+
+
+
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -34,6 +41,11 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.MapControllerRoute(
+    name: "areas",
+    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+);
 
 app.MapControllerRoute(
     name: "default",

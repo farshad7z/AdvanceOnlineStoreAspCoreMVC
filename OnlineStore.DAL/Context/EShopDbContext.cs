@@ -317,7 +317,7 @@ public partial class EShopDbContext : DbContext
             entity.Property(e => e.RoleId)
                 .ValueGeneratedNever()
                 .HasColumnName("RoleID");
-            entity.Property(e => e.RileTitle).HasMaxLength(250);
+            entity.Property(e => e.RoleTitle).HasMaxLength(250);
             entity.Property(e => e.RoleName).HasMaxLength(250);
         });
 
