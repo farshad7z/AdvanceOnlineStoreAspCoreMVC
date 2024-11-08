@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace OnlineStore.DAL.Models;
+namespace OnlineStore.DAL.Entities.Models;
 
 public partial class OrderDetail
 {

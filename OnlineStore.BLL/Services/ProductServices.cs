@@ -1,7 +1,7 @@
 ﻿using OnlineStore.BLL.Interfaces;
-using OnlineStore.Core.Data;
+using OnlineStore.Core;
 using OnlineStore.Core.Interfaces;
-using OnlineStore.DAL.Models;
+using OnlineStore.DAL.Entities.Models;
 using OnlineStore.DAL.UnitOfWork;
 using System;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace OnlineStore.BLL.Services
 {
-    public class ProductServices : IProductService
+    public class ProductServices : IProductServices
     {
 
         private readonly IUnitOfWork _unitOfWork;
@@ -29,12 +29,17 @@ namespace OnlineStore.BLL.Services
             await _unitOfWork.SaveAsync();
         }
 
-        public async Task DeleteProductAsync(int id) => await _unitOfWork.Repository<Product>().DeleteAsync(id);
+        public async Task DeleteProductAsync(int id)
+        {
+            await _unitOfWork.Repository<Product>().DeleteAsync(id);
+            await _unitOfWork.SaveAsync();
+        }
 
+        public async Task<IEnumerable<Product>> GetAllProductAsync()
+        {
+            return await _unitOfWork.Repository<Product>().GetAllAsync();
 
-
-        public async Task<IEnumerable<Product>> GetAllProductAsync() => await _unitOfWork.Repository<Product>().GetAllAsync();
-
+        }
         public async Task<IEnumerable<Product>> GetListProductByName(string name)
         {
             return await _unitOfWork.Repository<Product>().FindAsync(p => p.Title == name);

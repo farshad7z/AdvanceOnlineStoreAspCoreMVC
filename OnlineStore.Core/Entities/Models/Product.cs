@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace OnlineStore.DAL.Models;
+namespace OnlineStore.DAL.Entities.Models;
 
 public partial class Product
 {
@@ -19,6 +19,8 @@ public partial class Product
 
     public string ImageName { get; set; } = null!;
 
+    public int? StoreId { get; set; }
+
     public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
 
     public virtual ICollection<ProductComment> ProductComments { get; set; } = new List<ProductComment>();
@@ -32,4 +34,6 @@ public partial class Product
     public virtual ICollection<ProductSelectGroup> ProductSelectGroups { get; set; } = new List<ProductSelectGroup>();
 
     public virtual ICollection<ProductTag> ProductTags { get; set; } = new List<ProductTag>();
+
+    public virtual Store? Store { get; set; }
 }

@@ -36,6 +36,15 @@ E:\Project Store Advance\OnlineStore\OnlineStore\OnlineStore.Web\obj\Debug\net8.
 E:\Project Store Advance\OnlineStore\OnlineStore\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.pdb
 E:\Project Store Advance\OnlineStore\OnlineStore\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.genruntimeconfig.cache
 E:\Project Store Advance\OnlineStore\OnlineStore\OnlineStore.Web\obj\Debug\net8.0\ref\OnlineStore.Web.dll
+E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.csproj.AssemblyReference.cache
+E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.AssemblyInfoInputs.cache
+E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.AssemblyInfo.cs
+E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.csproj.CoreCompileInputs.cache
+E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.MvcApplicationPartsAssemblyInfo.cache
+E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.RazorAssemblyInfo.cache
+E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.RazorAssemblyInfo.cs
+E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.sourcelink.json
 E:\Project Store Advance\OnlineStore.Web\bin\Debug\net8.0\appsettings.Development.json
 E:\Project Store Advance\OnlineStore.Web\bin\Debug\net8.0\appsettings.json
 E:\Project Store Advance\OnlineStore.Web\bin\Debug\net8.0\OnlineStore.Web.staticwebassets.runtime.json
@@ -94,14 +103,6 @@ E:\Project Store Advance\OnlineStore.Web\bin\Debug\net8.0\OnlineStore.DAL.dll
 E:\Project Store Advance\OnlineStore.Web\bin\Debug\net8.0\OnlineStore.BLL.pdb
 E:\Project Store Advance\OnlineStore.Web\bin\Debug\net8.0\OnlineStore.Core.pdb
 E:\Project Store Advance\OnlineStore.Web\bin\Debug\net8.0\OnlineStore.DAL.pdb
-E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.csproj.AssemblyReference.cache
-E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.GeneratedMSBuildEditorConfig.editorconfig
-E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.AssemblyInfoInputs.cache
-E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.AssemblyInfo.cs
-E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.csproj.CoreCompileInputs.cache
-E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.MvcApplicationPartsAssemblyInfo.cache
-E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.RazorAssemblyInfo.cache
-E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.RazorAssemblyInfo.cs
 E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\staticwebassets.build.json
 E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\staticwebassets.development.json
 E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\staticwebassets\msbuild.OnlineStore.Web.Microsoft.AspNetCore.StaticWebAssets.props
@@ -118,4 +119,3 @@ E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\refint\OnlineStore.Web
 E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.pdb
 E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.genruntimeconfig.cache
 E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\ref\OnlineStore.Web.dll
-E:\Project Store Advance\OnlineStore.Web\obj\Debug\net8.0\OnlineStore.Web.sourcelink.json

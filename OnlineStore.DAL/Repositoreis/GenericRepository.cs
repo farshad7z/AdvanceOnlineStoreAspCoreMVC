@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using OnlineStore.Core.Data;
+using OnlineStore.Core;
 using OnlineStore.Core.Interfaces;
+using OnlineStore.DAL.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,12 +15,14 @@ namespace OnlineStore.DAL.Repositoreis
     {
         private readonly EShopDbContext _context;
         private readonly DbSet<T> _dbSet;
+        private EShopDbContext context;
 
         public GenericRepository(EShopDbContext context)
         {
             _context = context;
             _dbSet = context.Set<T>();
         }
+
 
         public async Task<IEnumerable<T>> GetAllAsync()
         {

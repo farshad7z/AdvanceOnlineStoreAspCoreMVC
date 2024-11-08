@@ -1,4 +1,4 @@
-﻿using OnlineStore.DAL.Models;
+﻿using OnlineStore.DAL.Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

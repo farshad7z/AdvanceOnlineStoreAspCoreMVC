@@ -23,4 +23,8 @@
     <ProjectReference Include="..\OnlineStore.Core\OnlineStore.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Entities\" />
+  </ItemGroup>
+
 </Project>

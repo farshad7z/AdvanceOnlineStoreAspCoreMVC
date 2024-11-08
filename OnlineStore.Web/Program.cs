@@ -1,5 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using OnlineStore.Core.Data;
+using OnlineStore.BLL.Interfaces;
+using OnlineStore.BLL.Services;
+using OnlineStore.Core.Interfaces;
+using OnlineStore.DAL.Context;
+using OnlineStore.DAL.UnitOfWork;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +12,8 @@ var builder = WebApplication.CreateBuilder(args);
 // اضافه کردن DbContext
 builder.Services.AddDbContext<EShopDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IProductServices, ProductServices>(); 
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using OnlineStore.Core.Data;
 using OnlineStore.Core.Interfaces;
-using OnlineStore.DAL.Models;
+using OnlineStore.DAL.Context;
 using OnlineStore.DAL.Repositoreis;
 
 

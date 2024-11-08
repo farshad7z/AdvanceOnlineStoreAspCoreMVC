@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using OnlineStore.DAL.Models;
+using OnlineStore.DAL.Entities.Models;
 
-namespace OnlineStore.Core.Data;
+namespace OnlineStore.DAL.Context;
 
 public partial class EShopDbContext : DbContext
 {
@@ -44,9 +44,13 @@ public partial class EShopDbContext : DbContext
 
     public virtual DbSet<Rolse> Rolses { get; set; }
 
+    public virtual DbSet<Seller> Sellers { get; set; }
+
     public virtual DbSet<ShippingMethod> ShippingMethods { get; set; }
 
     public virtual DbSet<Status> Statuses { get; set; }
+
+    public virtual DbSet<Store> Stores { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
 
@@ -143,7 +147,12 @@ public partial class EShopDbContext : DbContext
                 .HasMaxLength(50)
                 .IsFixedLength();
             entity.Property(e => e.ShortDescription).HasMaxLength(500);
+            entity.Property(e => e.StoreId).HasColumnName("StoreID");
             entity.Property(e => e.Title).HasMaxLength(350);
+
+            entity.HasOne(d => d.Store).WithMany(p => p.Products)
+                .HasForeignKey(d => d.StoreId)
+                .HasConstraintName("FK_Products_Stores");
         });
 
         modelBuilder.Entity<ProductComment>(entity =>
@@ -312,6 +321,21 @@ public partial class EShopDbContext : DbContext
             entity.Property(e => e.RoleName).HasMaxLength(250);
         });
 
+        modelBuilder.Entity<Seller>(entity =>
+        {
+            entity.Property(e => e.SellerId).HasColumnName("SellerID");
+            entity.Property(e => e.Email).HasMaxLength(100);
+            entity.Property(e => e.FirstName).HasMaxLength(50);
+            entity.Property(e => e.LastName).HasMaxLength(50);
+            entity.Property(e => e.NationalId)
+                .HasMaxLength(10)
+                .HasColumnName("NationalID");
+            entity.Property(e => e.PhoneNumber).HasMaxLength(20);
+            entity.Property(e => e.Status)
+                .HasMaxLength(20)
+                .IsFixedLength();
+        });
+
         modelBuilder.Entity<ShippingMethod>(entity =>
         {
             entity.HasKey(e => e.ShippingMethodId).HasName("PK_Posts");
@@ -332,6 +356,20 @@ public partial class EShopDbContext : DbContext
             entity.Property(e => e.Title)
                 .HasMaxLength(150)
                 .IsFixedLength();
+        });
+
+        modelBuilder.Entity<Store>(entity =>
+        {
+            entity.Property(e => e.StoreId).HasColumnName("StoreID");
+            entity.Property(e => e.Location)
+                .HasMaxLength(10)
+                .IsFixedLength();
+            entity.Property(e => e.SellerId).HasColumnName("SellerID");
+            entity.Property(e => e.StoreName).HasMaxLength(50);
+
+            entity.HasOne(d => d.Seller).WithMany(p => p.Stores)
+                .HasForeignKey(d => d.SellerId)
+                .HasConstraintName("FK_Stores_Sellers");
         });
 
         modelBuilder.Entity<User>(entity =>

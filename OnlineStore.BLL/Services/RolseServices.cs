@@ -1,6 +1,6 @@
 ﻿using OnlineStore.BLL.Interfaces;
 using OnlineStore.Core.Interfaces;
-using OnlineStore.DAL.Models;
+using OnlineStore.DAL.Entities.Models;
 using OnlineStore.DAL.UnitOfWork;
 using System;
 using System.Collections.Generic;
