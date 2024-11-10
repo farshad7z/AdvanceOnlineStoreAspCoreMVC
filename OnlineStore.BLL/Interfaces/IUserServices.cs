@@ -1,5 +1,5 @@
 ﻿using OnlineStore.Core.Interfaces;
-using OnlineStore.DAL.Entities.Models;
+using OnlineStore.Core.Entities.Models;
 using OnlineStore.DAL.Repositoreis;
 using System;
 using System.Collections.Generic;

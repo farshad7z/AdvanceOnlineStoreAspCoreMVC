@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace OnlineStore.DAL.Entities.Models;
+namespace OnlineStore.Core.Entities.Models;
 
 public partial class Order
 {

@@ -1,5 +1,5 @@
 ﻿using OnlineStore.BLL.Interfaces;
-using OnlineStore.DAL.Entities.Models;
+using OnlineStore.Core.Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

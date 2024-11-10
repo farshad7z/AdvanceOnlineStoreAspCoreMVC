@@ -26,24 +26,36 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Project Store Advance\OnlineStore.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Project Store Advance/OnlineStore.Web/Areas/Admin/Views/Rolses/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sc2VzXENyZWF0ZS5jc2h0bWw=
+[E:/Project Store Advance/OnlineStore.Web/Areas/Admin/Views/Rolse/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sc2VcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project Store Advance/OnlineStore.Web/Areas/Admin/Views/Rolses/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sc2VzXERlbGV0ZS5jc2h0bWw=
+[E:/Project Store Advance/OnlineStore.Web/Areas/Admin/Views/Rolse/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sc2VcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project Store Advance/OnlineStore.Web/Areas/Admin/Views/Rolses/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sc2VzXERldGFpbHMuY3NodG1s
+[E:/Project Store Advance/OnlineStore.Web/Areas/Admin/Views/Rolse/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sc2VcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project Store Advance/OnlineStore.Web/Areas/Admin/Views/Rolses/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sc2VzXEVkaXQuY3NodG1s
+[E:/Project Store Advance/OnlineStore.Web/Areas/Admin/Views/Rolse/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sc2VcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project Store Advance/OnlineStore.Web/Areas/Admin/Views/Rolses/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sc2VzXEluZGV4LmNzaHRtbA==
+[E:/Project Store Advance/OnlineStore.Web/Areas/Admin/Views/Rolse/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sc2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project Store Advance/OnlineStore.Web/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project Store Advance/OnlineStore.Web/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project Store Advance/OnlineStore.Web/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Project Store Advance/OnlineStore.Web/Views/Home/Index.cshtml]

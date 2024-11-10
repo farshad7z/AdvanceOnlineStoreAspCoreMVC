@@ -8,15 +8,16 @@ using Microsoft.EntityFrameworkCore;
 using OnlineStore.BLL.Interfaces;
 using OnlineStore.BLL.Services;
 using OnlineStore.DAL.Context;
-using OnlineStore.DAL.Entities.Models;
+using OnlineStore.Core.Entities.Models;
 
 namespace OnlineStore.Web.Areas.Admin.Controllers
 {
-    public class RolsesController : Controller
+    [Area("Admin")]
+    public class RolseController : Controller
     {
         private readonly IRolseServices _rolseServices;
 
-        public RolsesController(IRolseServices rolseServices)
+        public RolseController(IRolseServices rolseServices)
         {
             _rolseServices = rolseServices;
         }
@@ -50,7 +51,7 @@ namespace OnlineStore.Web.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("RoleId,RileTitle,RoleName")] Rolse rolse)
+        public async Task<IActionResult> Create([Bind("RoleId,RoleTitle,RoleName")] Rolse rolse)
         {
             if (ModelState.IsValid)
             {

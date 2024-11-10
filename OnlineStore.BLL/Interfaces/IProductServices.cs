@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using OnlineStore.Core;
-using OnlineStore.DAL.Entities.Models;
+using OnlineStore.Core.Entities.Models;
 
 namespace OnlineStore.BLL.Interfaces
 {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using OnlineStore.DAL.Entities.Models;
+using OnlineStore.Core.Entities.Models;
 
 namespace OnlineStore.DAL.Context;
 
